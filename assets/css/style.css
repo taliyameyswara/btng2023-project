@@ -2,6 +2,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-.nav-link {
-  /* margin-left: 30px; */
+.bg-light {
+  background: #edf4ff !important;
+}
+
+#division i {
+  font-size: 30px;
 }
