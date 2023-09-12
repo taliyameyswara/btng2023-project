@@ -99,9 +99,9 @@
     <!-- Hero Section End -->
 
     <!-- About Section Start -->
-    <section id="about">
+    <section id="about" class="my-5">
       <div class="container">
-        <h1 class="fw-bold text-center mt-5">About Us</h1>
+        <h1 class="fw-bold text-center">About Us</h1>
 
         <p class="text-muted mx-auto text-center lg-fs-5 my-4">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
@@ -131,9 +131,9 @@
     <!-- About Section End -->
 
     <!-- Division Section Start -->
-    <section id="division">
+    <section id="division" class="my-5">
       <div class="container">
-        <h1 class="fw-bold text-center mt-5">Division</h1>
+        <h1 class="fw-bold text-center">Division</h1>
 
         <p class="text-muted mx-auto text-center lg-fs-5 my-4">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
@@ -207,7 +207,7 @@
     <!-- Division Section End -->
 
     <!-- Team Section Start -->
-    <section id="team" class="mt-0 py-4 mt-5">
+    <section id="team" class="my-5">
       <div class="container">
         <h1 class="fw-bold text-center">Team</h1>
         <p class="text-muted mx-auto text-center lg-fs-5 my-4">
@@ -286,7 +286,7 @@
       <div class="container">
         <h1 class="fw-bold text-center mb-">Testimoni</h1>
 
-        <p class="text-muted mx-auto text-center lg-fs-5">
+        <p class="text-muted mx-auto text-center lg-fs-5 my-4">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
           fugit et autem voluptatem, molestiae."
         </p>
@@ -426,39 +426,39 @@
       <div class="container mt-5">
         <h1 class="fw-bold text-center">Frequently Asked Questions</h1>
 
-        <p class="text-muted mx-auto text-center lg-fs-5">
+        <p class="text-muted mx-auto text-center lg-fs-5 my-4">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
           fugit et autem voluptatem, molestiae."
         </p>
 
-        <div class="accordion mt-5" id="accordionExample">
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+            <h2 class="accordion-header" id="headingTwo">
               <button
-                class="accordion-button fw-bold"
+                class="accordion-button collapsed fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
                 aria-expanded="false"
                 aria-controls="collapseOne"
               >
-                Bagaimana cara mendaftar BTNG 2023?
+                Bagaimana cara mendaftar?
               </button>
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              class="accordion-collapse collapse"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit
                 overflow.
               </div>
@@ -534,6 +534,64 @@
     <!-- FQA Section End -->
 
     <!-- Contact Section Start -->
+    <section id="contact" class="my-5">
+      <div class="container">
+        <h1 class="fw-bold text-center">Contact Us</h1>
+
+        <p class="text-muted mx-auto text-center lg-fs-5 my-4">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          fugit et autem voluptatem, molestiae."
+        </p>
+
+        <form>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control p-3"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="youremail@email.com"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="email"
+                  class="form-control p-3"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="example: 081347613465"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Your message.."
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
     <!-- Contact Section End -->
 
     <!-- Bootstrap JS -->
